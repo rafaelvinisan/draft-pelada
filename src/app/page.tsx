@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { supabase } from '@/lib/supabase'
 import Link from 'next/link'
 import { Trophy, Calendar, ChevronRight, LayoutDashboard } from 'lucide-react'

@@ -1,5 +1,5 @@
 "use client"
-
+export const dynamic = 'force-dynamic'
 import { useState, useEffect } from 'react'
 import { supabase } from '@/lib/supabase'
 import { 
@@ -201,7 +201,7 @@ export default function AdminPage() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-900 p-4">
         <form onSubmit={handleLogin} className="bg-slate-800 p-8 rounded-2xl shadow-2xl w-full max-w-sm border border-slate-700">
-          <h1 className="text-2xl font-black text-center mb-6 text-white uppercase tracking-widest">Galo Draft</h1>
+          <h1 className="text-2xl font-black text-center mb-6 text-white uppercase tracking-widest">Amigos do Thiagao Draft</h1>
           <input 
             type="password" 
             placeholder="Senha do Organizador" 

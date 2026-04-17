@@ -1,5 +1,5 @@
 "use client"
-
+export const dynamic = 'force-dynamic'
 import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
@@ -114,7 +114,7 @@ export default function VotacaoPage() {
 
           <footer className="text-center pb-10">
             <p className="text-slate-600 text-[10px] font-bold uppercase tracking-widest">
-              Gerado pelo Galo Draft • {new Date().toLocaleDateString()}
+              Gerado pelo Amigos do Thiagão Draft • {new Date().toLocaleDateString()}
             </p>
           </footer>
         </div>
