@@ -298,7 +298,7 @@ export default function AdminPage() {
                       disabled={carregando}
                       className="flex-1 md:flex-none bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-black text-sm active:scale-95 transition-all shadow-lg shadow-blue-100"
                     >
-                      {carregando ? <Loader2 className="animate-spin" /> : 'FECHAR E SORTIAR'}
+                      {carregando ? <Loader2 className="animate-spin" /> : 'FECHAR E SORTEAR'}
                     </button>
                   )}
                 </div>
